@@ -1,5 +1,5 @@
 module.exports = {
-  content: [style.css, index.html, tailwind.css. index.js],
+  content: [style.css, index.html, tailwind.css, index.js],
   theme: {
     extend: {gridTemplateRows: {
       // Simple 8 row grid
