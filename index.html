@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:wght@300&family=Merriweather:ital,wght@1,900&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    /> 
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Welcome to E-commerce!</title>
+  </head>
+
+
+  <body>
+    <nav class="navbar bg-gradient-to-r from-yellow-300 via-teal-500 to-lime-400 flex flex-wrap bg-teal-500 p-6">
+      <div class="space-x-20 flex flex-shrink-0 text-white mr-6">
+        
+        
+        <div class= "flex">
+          <span class="material-symbols-outlined">
+              shopping_basket
+          </span>
+          <a href="index.html"><span class="font-bold text-black text-xl tracking-tight ">E-Commerce</span></a> 
+        </div>
+        <a href="cart.html" class="cart block mt-2 lg:inline-block lg:mt-0 text-white hover:text-yellow-300">
+          My Cart
+        </a>
+      </div>
+      </nav>
+
+    <!-- SlideShow -->
+    <section class="showcase" id="home">
+      <div class="slider">
+        <div class="slide_viewer">
+            <div class="slide_group">
+              <div class="slide">
+                  <h3>Merch<br>2022</h3>
+                  <img src = https://cdn.accentuate.io/40927578849462/11366956630062/stojo-berry-v1638305891175.png?936x1160 class="transform hover:scale-110" style="height:450px; right: 200px; top: 45px; position: absolute">
+              </div>
+
+              <div class="slide">
+                  <h1> Special Deals from <br>May - July 2022</h1>
+                  <img src = https://www.magic-custom.com/15729-large_product/donda-merch-sand-tee-shirt-mercedes-arena.webp class="transform hover:scale-110" style="height:450px; left: 200px; top: 50px; position: absolute ">
+              </div>
+
+              <div class="slide">
+                  <h2>Use Promo code:<br>EC0MMERCE</h2>
+                  <img src = https://www.hummel.net/on/demandware.static/-/Sites-hummel-master-catalog/default/dwb3badb6d/images/packshot/089066-2001.png class="transform hover:scale-110" style="height:380px; right: 480px; top: 50px; position: absolute ">
+              </div>
+
+              <div class="slide">
+                  <h4>Don't <br>Miss Out</h4>
+                  <img src = https://cdn.accentuate.io/31245061750830/11366956630062/16_sage_1-v1574321516144.png?936x1160 class="transform hover:scale-110" style="height:450px; left: 400px; top: 30px; position: absolute ">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- End // .slider -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    </section>
+
+
+    <!-- Product -->
+    <section class="grid-rows-4 product bg-gray-800 bg-opacity-100">
+        <div class="title py-100 text-6xl font-extrabold ...">
+          <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+            Our Featured Products
+          </span>
+        </div>
+
+    <div class="container-left"> 
+      <div class=" product-left flex bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-r-full bg-teal-400 border-t-8 border-emerald-300 border-r-8 border-emerald-300 transform hover:scale-110" >
+        <img src = https://cdn.accentuate.io/40927578849462/11366956630062/stojo-berry-v1638305891175.png?936x1160 class="transform hover:scale-110" width="300px">
+        <div class="columns-2">
+          <h3 class="product-name text-white ">SRF Foldable Cup - $15</h3>
+          <p class="product-des text-sm">SRF - Self Raising Fund Folable cup are designed by <br> a group of Poly students who aim to provide an eco-friendly<br>alternative to daily takeaway cups</p>
+          <p class="underline text-xs">Learn more about them ></p>
+          <a href="product.html"><button class="bg-gray-800 text-yellow-100 hover:bg-green-400 hover:text-black border-2 rounded-full mt-10 mr-4 py-2 px-4 text-lg ">
+            View the product
+          </button></a>
+          </form>
+        </div>
+      </div>
+    </div>  
+
+    <div class="container-left text-right flex ">
+      <div class=" flex product-right bg-gradient-to-r from-blue-500 to-green-400 hover:from-yellow-500 hover:to-pink-500 rounded-l-full bg-teal-400 border-t-8 border-emerald-300 border-t-8 border-emerald-300 transform hover:scale-110" style="margin-right: 0;margin-left: auto;" >
+        <img src =https://www.magic-custom.com/15729-large_product/donda-merch-sand-tee-shirt-mercedes-arena.webp class=" flex transform hover:scale-110" width="400px" > 
+        <div class="columns-2 mr-10">
+          <h3 class="product-name text-white ">DIY Shirt - $20</h3>
+          <p class="product-des text-sm">Designed by <br> a group of primary students</p>
+          <p class="underline text-xs">Learn more about them ></p>
+          <button class="bg-gray-800 text-yellow-100 hover:bg-green-400 hover:text-black border-2 rounded-full mt-10 mr-4 py-2 px-4 text-lg ">
+            View the product
+          </button>
+          </form>
+        </div>
+      </div>
+      </div>
+      
+
+    <div class="container-left ">
+      <div class=" product-left flex bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-r-full bg-teal-400 border-t-8 border-emerald-300 border-r-8 border-emerald-300 transform hover:scale-110">
+        <img src = https://www.hummel.net/on/demandware.static/-/Sites-hummel-master-catalog/default/dwb3badb6d/images/packshot/089066-2001.png class="transform hover:scale-110" width="500px">
+        <div class="columns-2">
+          <h3 class="product-name text-white ">Cappy - $15</h3>
+          <p class="product-des text-sm">Cappy is designed by <br> a group of youth who believe<br>caps are daily essential</p>
+          <p class="underline text-xs">Learn more about them ></p>
+          <button class="bg-gray-800 text-yellow-100 hover:bg-green-400 hover:text-black border-2 rounded-full mt-10 mr-4 py-2 px-4 text-lg ">
+            View the product
+          </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+
+    <!-- JavaScript for SlideShow -->
+    <script src=index.js></script>
+    </body>
+</html>

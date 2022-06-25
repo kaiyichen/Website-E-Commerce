@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:wght@300&family=Merriweather:ital,wght@1,900&family=Staatliches&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .navbar {
+        font-family: 'Staatliches', cursive;
+        text-color:black;
+    }
+    .title {
+        text-color: black
+    }
+    .cart {
+        right: 100px;
+        position:absolute
+    }
+}
+
+@layer components{
+    .product{
+        padding-top: 200px;
+        font-size: 30px;
+    }
+    .title{
+      font-family: 'Staatliches', cursive;
+      text-align: center;
+      padding-bottom: 50px;
+    }
+    .container-left{
+      width:100%
+      position:absolute;
+      padding: 30px 0;
+    }
+    .container-left-2{
+      width:100%
+      position:absolute;
+      padding: 490px 0;
+    }
+    .container-right{
+      width:100%;
+      position:absolute;
+      left:40%;
+      flex: right;
+      padding: 30px 0;
+      margin-left:30px;
+    }
+    .product-left{
+        font-family: 'Staatliches', cursive;
+        position:relative;
+        width:60%;
+    }
+    .product-name{
+        padding-top:60px;
+        fontSize: 40px;
+    }
+    p {
+        padding-top:10px;
+        margin:5px;
+    }
+    .product-right{
+      font-family: 'Staatliches', cursive;
+      position:relative;
+      right:0;
+      width:50%;
+    }
+}
+
+@layer components{
+  .showcase{}
+  .product-des{
+    margin:80px 80px 55px 0;
+    font-family: 'Staatliches', cursive;
+    z-index:1 ;
+  }
+}
